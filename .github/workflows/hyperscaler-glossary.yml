@@ -1,0 +1,48 @@
+name: unclsams/hyperscaler-glossary
+on:
+#   # This item has no matching transformer
+#   builds_only_with_travis_yml: false
+  push:
+    branches:
+    - "**/*"
+    - main
+  pull_request:
+#   # This item has no matching transformer
+#   maximum_number_of_builds: 0
+#   # This item has no matching transformer
+#   auto_cancel_pushes: false
+#   # This item has no matching transformer
+#   auto_cancel_pull_requests: false
+env:
+  GHE_TOKEN: "${{ secrets.GHE_TOKEN }}"
+jobs:
+  build-site:
+    runs-on: ubuntu-latest
+    #runs-on: self-hosted
+    steps:
+    - name: checkout
+      uses: actions/checkout@v2
+    - run: sudo chmod 0777 /opt/hostedtoolcache
+    - uses: actions/setup-python@v2
+      with:
+        python-version: 3.7
+    - run: pip install -r requirements.txt
+    - run: pip install mkdocs
+    - run: pip3 install mkdocs-git-revision-date-localized-plugin
+    - run: pip3 install mkdocs-rtd-dropdown
+    - name: Deploy
+      run: |
+        git pull
+        mkdocs gh-deploy
+    - uses: actions/setup-python@v2
+      with:
+        python-version: 3.7
+    - run: pip install -r requirements.txt
+    - run: pip install mkdocs
+    - run: pip3 install mkdocs-git-revision-date-localized-plugin
+    - run: pip3 install mkdocs-rtd-dropdown
+    - name: Deploy
+      run: |
+        git pull
+        mkdocs gh-deploy
+#    - run: mkdocs build --verbose --clean
