@@ -54,9 +54,9 @@ theme:
     - content.tabs.link
     # - header.autohide
     # - navigation.expand
-    - navigation.indexes
+    # - navigation.indexes
     # - navigation.instant
-    - navigation.sections
+    # - navigation.sections
     - navigation.tabs
     # - navigation.tabs.sticky
     - navigation.top
@@ -79,11 +79,18 @@ theme:
         icon: material/toggle-switch
         name: Switch to light mode
   font:
-    text: Roboto
-    code: Roboto Mono
+    #text: Roboto
+    #code: Roboto Mono
+    text: 'IBM Plex Sans'
+    code: 'IBM Plex Mono' 
+
   favicon: assets/favicon.png
   icon:
     logo: logo
+
+extra_css:
+  - 'extra.css'
+  - 'extra-pagesize.css'
 
 # Plugins
 plugins:
@@ -178,10 +185,4 @@ nav:
     - DevOps: devops/table.md
   - Other Services:
     - service1: otherservices/table.md
-   
-  
-  - Blog:
-    - blog/index.md
-    - 2021:
-      - blog/2021/excluding-content-from-search.md
-      - blog/2021/search-better-faster-smaller.md
+
