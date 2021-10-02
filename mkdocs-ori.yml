@@ -168,16 +168,23 @@ markdown_extensions:
 # Page tree
 nav:
   - Home: index.md
-  - Core Services:
-    - Compute: coreservices/table.md
-    - Storage: coreservices/table.md
-    - Network: coreservices/table.md
-  - DevOps:
-    - DevOps: devops/table.md
-  - Other Services:
-    - service1: otherservices/table.md
-   
-  
+  - Getting started:
+    - Installation: getting-started.md
+    - Creating your site: creating-your-site.md
+    - Publishing your site: publishing-your-site.md
+    - Customization: customization.md
+    - Troubleshooting: troubleshooting.md
+    - Data privacy: data-privacy.md
+    - License: license.md
+    - Releases:
+      - Changelog: changelog.md
+      - Upgrade guide: upgrading.md
+      - Deprecations: deprecations.md
+    - Insiders:
+    - insiders/index.md
+    - Getting started:
+      - Installation: insiders/getting-started.md
+      - Changelog: insiders/changelog.md
   - Blog:
     - blog/index.md
     - 2021:
