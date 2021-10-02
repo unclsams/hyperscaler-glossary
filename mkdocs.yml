@@ -167,7 +167,9 @@ markdown_extensions:
 
 # Page tree
 nav:
-  - Home: index.md
+  - Home: 
+    - Introduction: index.md
+    - Categories: categories.md
   - Core Services:
     - Compute: coreservices/table.md
     - Storage: coreservices/table.md
