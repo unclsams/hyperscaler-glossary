@@ -88,9 +88,9 @@ theme:
   icon:
     logo: logo
 
-extra_css:
-  - 'extra.css'
-  - 'extra-pagesize.css'
+ extra_css:
+   - 'extra.css'
+   - 'extra-pagesize.css'
 
 # Plugins
 plugins:
@@ -111,8 +111,8 @@ plugins:
   #      releases/changelog.md: changelog.md
   #      setup/adding-social-links.md: setup/setting-up-the-footer.md
   #      sponsorship.md: insiders/index.md
-  #- minify:
-  #    minify_html: true
+  - minify:
+      minify_html: true
 
 # Customization
 extra:
