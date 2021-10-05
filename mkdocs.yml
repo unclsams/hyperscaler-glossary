@@ -88,9 +88,9 @@ theme:
   icon:
     logo: logo
 
- extra_css:
-   - 'extra.css'
-   - 'extra-pagesize.css'
+extra_css:
+  - 'extra.css'
+  - 'extra-pagesize.css'
 
 # Plugins
 plugins:
