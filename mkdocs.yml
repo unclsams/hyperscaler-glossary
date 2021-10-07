@@ -176,13 +176,43 @@ markdown_extensions:
 nav:
   - Home: 
     - Introduction: index.md
-    - Categories: categories.md
-  - Core Services:
+  - Core Categories:
+    - Architecture Frameworks: coreservices/table.md
+    - Regions & Zones: coreservices/table.md
+    - Org Mgmt: coreservices/table.md
+    - Resource Managers: coreservices/table.md
     - Compute: coreservices/table.md
+    - Containers: coreservices/table.md
     - Storage: coreservices/table.md
     - Network: coreservices/table.md
-  - DevOps:
-    - DevOps: devops/table.md
+    - IAM: coreservices/table.md
+    - Migration: coreservices/table.md
+    - Automation & DevOps: coreservices/table.md
+  - Data,AI,ML & IoT:
+    - Databases: devops/table.md
+    - Analytics: coreservices/table.md
+    - IoT: coreservices/table.md
+    - AI & ML: coreservices/table.md
+    - Resiliency: coreservices/table.md
+  - Messaging:
+    - Messaging: devops/table.md
+  - Management & Governance:
+    - Server & Platform Monitoring: coreservices/table.md
+    - Network Monitoring: coreservices/table.md
+    - App Monitoring: coreservices/table.md
+    - Patching & Updates: coreservices/table.md
+  - Monitoring & Management:
+    - Server & Platform Monitoring: coreservices/table.md
+    - Network Monitoring: coreservices/table.md
+    - App Monitoring: coreservices/table.md
+    - Patching & Updates: coreservices/table.md
+  - Security & Resiliency:
+    - Backup: otherservices/table.md
+    - DR: otherservices/table.md
+    - Security: otherservices/table.md
   - Other Services:
-    - service1: otherservices/table.md
+    - Digital Workspace/Virtual Desktop: otherservices/table.md
+    - Mainframe & Midrange: otherservices/table.md
+    - SAP: otherservices/table.md
+    - Integrations: otherservices/table.md
 
