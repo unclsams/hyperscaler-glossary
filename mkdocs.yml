@@ -32,7 +32,7 @@ repo_url: https://unclsams.github.io/hyperscaler-glossary/
 edit_uri: ""
 
 # Copyright
-copyright: Copyright &copy; 2016 - 2021 Martin Donath
+copyright: Copyright &copy; 2016 - 2021 mkdocs
 
 # Configuration
 theme:
@@ -121,17 +121,17 @@ extra:
     property: !ENV GOOGLE_ANALYTICS_KEY
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/squidfunk
-    - icon: fontawesome/brands/gitter
-      link: https://gitter.im/squidfunk/mkdocs-material
-    - icon: fontawesome/brands/docker
-      link: https://hub.docker.com/r/squidfunk/mkdocs-material/
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/squidfunk
-    - icon: fontawesome/brands/linkedin
-      link: https://linkedin.com/in/squidfunk/
-    - icon: fontawesome/brands/instagram
-      link: https://instagram.com/squidfunk
+      link: https://github.com/unclsams
+    #- icon: fontawesome/brands/gitter
+    #  link: https://gitter.im/squidfunk/mkdocs-material
+    #- icon: fontawesome/brands/docker
+    #  link: https://hub.docker.com/r/squidfunk/mkdocs-material/
+    #- icon: fontawesome/brands/twitter
+    #  link: https://twitter.com/squidfunk
+    #- icon: fontawesome/brands/linkedin
+    #  link: https://linkedin.com/in/squidfunk/
+    #- icon: fontawesome/brands/instagram
+    #  link: https://instagram.com/squidfunk
 
 # Extensions
 markdown_extensions:
@@ -172,40 +172,44 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
 
+# Footer notice "Made with Material for Mkdocs"
+#extra:
+#  generator: false
+
 # Page tree
 nav:
   - Home: 
     - Introduction: index.md
   - Core Categories:
-    - Architecture Frameworks: coreservices/table.md
-    - Regions & Zones: coreservices/table.md
-    - Org Mgmt: coreservices/table.md
-    - Resource Managers: coreservices/table.md
-    - Compute: coreservices/table.md
-    - Containers: coreservices/table.md
-    - Storage: coreservices/table.md
-    - Network: coreservices/table.md
-    - IAM: coreservices/table.md
-    - Migration: coreservices/table.md
-    - Automation & DevOps: coreservices/table.md
+    - Architecture Frameworks: categories/table.md
+    - Regions & Zones: categories/table.md
+    - Org Mgmt: categories/table.md
+    - Resource Managers: categories/table.md
+    - Compute: categories/table.md
+    - Containers: categories/table.md
+    - Storage: categories/table.md
+    - Network: categories/table.md
+    - IAM: categories/table.md
+    - Migration: categories/table.md
+    - Automation & DevOps: categories/table.md
   - Data,AI,ML & IoT:
     - Databases: devops/table.md
-    - Analytics: coreservices/table.md
-    - IoT: coreservices/table.md
-    - AI & ML: coreservices/table.md
-    - Resiliency: coreservices/table.md
+    - Analytics: categories/table.md
+    - IoT: categories/table.md
+    - AI & ML: categories/table.md
+    - Resiliency: categories/table.md
   - Messaging:
     - Messaging: devops/table.md
   - Management & Governance:
-    - Server & Platform Monitoring: coreservices/table.md
-    - Network Monitoring: coreservices/table.md
-    - App Monitoring: coreservices/table.md
-    - Patching & Updates: coreservices/table.md
+    - Server & Platform Monitoring: categories/table.md
+    - Network Monitoring: categories/table.md
+    - App Monitoring: categories/table.md
+    - Patching & Updates: categories/table.md
   - Monitoring & Management:
-    - Server & Platform Monitoring: coreservices/table.md
-    - Network Monitoring: coreservices/table.md
-    - App Monitoring: coreservices/table.md
-    - Patching & Updates: coreservices/table.md
+    - Server & Platform Monitoring: categories/table.md
+    - Network Monitoring: categories/table.md
+    - App Monitoring: categories/table.md
+    - Patching & Updates: categories/table.md
   - Security & Resiliency:
     - Backup: otherservices/table.md
     - DR: otherservices/table.md
