@@ -193,27 +193,22 @@ nav:
     - Migration: categories/table.md
     - Automation & DevOps: categories/table.md
   - Data,AI,ML & IoT:
-    - Databases: devops/table.md
-    - Analytics: categories/table.md
-    - IoT: categories/table.md
-    - AI & ML: categories/table.md
-    - Resiliency: categories/table.md
+    - Databases: dataai/table.md
+    - Analytics: dataai/table.md
+    - IoT: dataai/table.md
+    - AI & ML: dataai/table.md
+    - Resiliency: dataai/table.md
   - Messaging:
-    - Messaging: devops/table.md
+    - Messaging: msgng/table.md
   - Management & Governance:
-    - Server & Platform Monitoring: categories/table.md
-    - Network Monitoring: categories/table.md
-    - App Monitoring: categories/table.md
-    - Patching & Updates: categories/table.md
-  - Monitoring & Management:
-    - Server & Platform Monitoring: categories/table.md
-    - Network Monitoring: categories/table.md
-    - App Monitoring: categories/table.md
-    - Patching & Updates: categories/table.md
+    - Server & Platform Monitoring: mgmt/table.md
+    - Network Monitoring: mgmt/table.md
+    - App Monitoring: mgmt/table.md
+    - Patching & Updates: mgmt/table.md
   - Security & Resiliency:
-    - Backup: otherservices/table.md
-    - DR: otherservices/table.md
-    - Security: otherservices/table.md
+    - Backup: resiliency/table.md
+    - DR: resiliency/table.md
+    - Security: resiliency/table.md
   - Other Services:
     - Digital Workspace/Virtual Desktop: otherservices/table.md
     - Mainframe & Midrange: otherservices/table.md
