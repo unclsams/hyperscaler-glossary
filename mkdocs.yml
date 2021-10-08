@@ -181,7 +181,7 @@ nav:
   - Home: 
     - Introduction: index.md
   - Core Categories:
-    - Architecture Frameworks: categories/table.md
+    - Architecture Frameworks: categories/archframework.md
     - Regions & Zones: categories/table.md
     - Org Mgmt: categories/table.md
     - Resource Managers: categories/table.md
