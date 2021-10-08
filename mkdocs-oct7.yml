@@ -19,21 +19,20 @@
 # IN THE SOFTWARE.
 
 # Project information
-site_name: Sams
-site_url: Sams
-site_author: Sam
+site_name: Hyperscaler Glossary
+site_url: https://unclsams.github.io/hyperscaler-glossary/
+site_author: Sam Swaminathan
 site_description: >-
   Create a branded static site from a set of Markdown files to host the
   documentation of your Open Source or commercial project
 
 # Repository
-repo_name: FEEDBACK/ISSUES
-repo_url: Sam
+repo_name: unclsams/hyperscaler-glossary/
+repo_url: https://unclsams.github.io/hyperscaler-glossary/
 edit_uri: ""
 
-
-# Copyright statement in Footer
-copyright: <a href="/about/">Copyright (C) 2021 Kyndryl</a>.
+# Copyright
+copyright: Copyright &copy; 2016 - 2021 mkdocs
 
 # Configuration
 theme:
@@ -48,7 +47,7 @@ theme:
   include_search_page: false
   search_index_only: true
 
-  
+  # Default values, taken from mkdocs_theme.yml
   language: en
   features:
     - content.code.annotate
@@ -68,8 +67,8 @@ theme:
     # - toc.integrate
   palette:
     - scheme: default
-      primary: grey
-      accent: blue
+      primary: indigo
+      accent: indigo
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
@@ -83,11 +82,11 @@ theme:
     #text: Roboto
     #code: Roboto Mono
     text: 'IBM Plex Sans'
-    code: 'IBM Plex Mono'
-  #favicon: assets/favicon.png
+    code: 'IBM Plex Mono' 
+
+  favicon: assets/favicon.png
   icon:
-  logo: kyndryl2.png
-  favicon: 'kyndryl2.png'
+    logo: logo
 
 extra_css:
   - 'extra.css'
@@ -122,11 +121,7 @@ extra:
     property: !ENV GOOGLE_ANALYTICS_KEY
   social:
     - icon: fontawesome/brands/github
-    #- icon: kyndryl2.png
-      link: 'https://github.kyndryl.net/OCTO/azure/'
-      name:  FEEDBACK & ISSUES
-    #- icon: fontawesome/brands/github
-    #  link: https://github.com/squidfunk
+      link: https://github.com/unclsams
     #- icon: fontawesome/brands/gitter
     #  link: https://gitter.im/squidfunk/mkdocs-material
     #- icon: fontawesome/brands/docker
@@ -148,7 +143,7 @@ markdown_extensions:
   - meta
   - md_in_html
   - toc:
-      permalink: ⚓︎
+      permalink: true
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.betterem:
@@ -176,67 +171,47 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
- 
+
 # Footer notice "Made with Material for Mkdocs"
 #extra:
 #  generator: false
 
 # Page tree
 nav:
-      - Home: 
-        - Introduction: 'index.md'
-        - Scope: 'home/scope.md'
-        - Pre-Requisite Learning: 'home/prereq-learning.md'
-      - Adoption & Design:
-          - Strategy & Planning:
-              - 'Strategy & Planning Overview': 'stratplan/stratplanoverview.md'
-              - 'Cloud Adoption Strategy': 'stratplan/adoptionstrategy.md'
-              - 'Plan': 'stratplan/adoptionplan.md'
-          - Landing Zone Design:
-              - 'Overview & Scope': 'lzdesign/lzdesignoverview.md'
-              - 'Design Approach': 'lzdesign/lzdesignapproach.md'
-              - '1.Enterprise Enrollment': 'lzdesign/eaenrolment.md'
-              - '2.Identity & Access': 'lzdesign/iam.md'
-              - '3.Organization Mgmt': 'lzdesign/orgmgmt.md'
-              - '4.Network': 'lzdesign/nwtopology.md'
-              - '5.Monitoring & Mgmt': 'lzdesign/monitoringmgmt.md'
-              - '6.Governance & Compliance': 'lzdesign/govcomp.md'
-              - '7.Backup & DR': 'lzdesign/bcdr.md'
-              - '8.Platform Automation': 'lzdesign/platformauto.md'
-          - Automations:
-              - 'Automation Framework': 'automation/automation/automation-framework.md'
-              - 'Automation Architecture': 'automation/automation/automation-architecture.md'
-              - 'Make Manage Automation': 'automation/automation/makemanage.md'
-              - 'Azure Automation Options': 'automation/automation/azure-automationoptions.md'
-          - Azure LightHouse:
-              - 'LightHouse Enablement': 'automation/lighthouse/lh-enableguide.md'
-              - 'LightHouse Administration': 'automation/lighthouse/lh-adminguide.md'
-      - Azure Resources & Services:
-        - 'Azure Compute': 'resource-service/compute.md'
-        - 'VM Agents': 'resource-service/vmagents.md'
-        - 'Azure Storage': 'resource-service/storage.md'
-        - 'Azure Kubernetes Service': 'resource-service/aks.md'
-      - Examples - Design & Implementation:
-          - Landing Zone Design - Sample Workload 1:
-              - 'Workload Description': 'lzdesignsample1/wldescription.md'
-              - '1.Enterprise Enrollment & Azure AD Tenants': 'lzdesignsample1/eaenrol.md'
-              - '2.Identity & Access Management': 'lzdesignsample1/idaccess.md'
-              - '3.Organization & Management Group': 'lzdesignsample1/organdmgmt.md'
-              - '4.Network Topology & Connectivity': 'lzdesignsample1/nwtopo.md'
-              - '5.Monitoring & Management': 'lzdesignsample1/monitoringmgmt.md'
-              - '6.Business Continuity & Disaster Recovery': 'lzdesignsample1/backupdr.md'
-              - '7.Governance & Compliance': 'lzdesignsample1/govcomp.md'
-              - '8.Platform Automation & DevOps': 'lzdesignsample1/platformauto.md'
-          - Virtual WAN - Design and Implementation:
-              - 'Overview and Link to Details': 'virtualwan/overview.md'
-      - Operations Automation (IN PROGRESS):
-          - Automations:
-              - 'Automation UseCases': 'automation/automation/automation-usecases.md'
-              - 'Automation Architecture': 'automation/automation/automation-architecture.md'
-              - 'Make Manage Automation': 'automation/automation/makemanage.md'
-              - 'Azure Automation Options': 'automation/automation/azure-automationoptions.md'
-          - Azure LightHouse:
-              - 'LightHouse Enablement': 'automation/lighthouse/lh-enableguide.md'
-              - 'LightHouse Administration': 'automation/lighthouse/lh-adminguide.md'
-      - About:
-        - Contributors: 'about/1authors.md'
+  - Home: 
+    - Introduction: index.md
+  - Core Categories:
+    - Architecture Frameworks: categories/table.md
+    - Regions & Zones: categories/table.md
+    - Org Mgmt: categories/table.md
+    - Resource Managers: categories/table.md
+    - Compute: categories/table.md
+    - Containers: categories/table.md
+    - Storage: categories/table.md
+    - Network: categories/table.md
+    - IAM: categories/table.md
+    - Migration: categories/table.md
+    - Automation & DevOps: categories/table.md
+  - Data,AI,ML & IoT:
+    - Databases: dataai/table.md
+    - Analytics: dataai/table.md
+    - IoT: dataai/table.md
+    - AI & ML: dataai/table.md
+    - Resiliency: dataai/table.md
+  - Messaging:
+    - Messaging: msgng/table.md
+  - Management & Governance:
+    - Server & Platform Monitoring: mgmt/table.md
+    - Network Monitoring: mgmt/table.md
+    - App Monitoring: mgmt/table.md
+    - Patching & Updates: mgmt/table.md
+  - Security & Resiliency:
+    - Backup: resiliency/table.md
+    - DR: resiliency/table.md
+    - Security: resiliency/table.md
+  - Other Services:
+    - Digital Workspace/Virtual Desktop: otherservices/table.md
+    - Mainframe & Midrange: otherservices/table.md
+    - SAP: otherservices/table.md
+    - Integrations: otherservices/table.md
+
