@@ -28,7 +28,7 @@ site_description: >-
 
 # Repository
 repo_name: unclsams/hyperscaler-glossary/
-repo_url: https://unclsams.github.io/hyperscaler-glossary/
+repo_url: https://github.com/unclsams/hyperscaler-glossary
 edit_uri: ""
 
 # Copyright
@@ -191,7 +191,7 @@ nav:
     - Network: categories/table.md
     - IAM: categories/table.md
     - Migration: categories/table.md
-    - Automation & DevOps: categories/table.md
+    - Automation & DevOps: categories/table1.md
   - Data,AI,ML & IoT:
     - Databases: dataai/table.md
     - Analytics: dataai/table.md
