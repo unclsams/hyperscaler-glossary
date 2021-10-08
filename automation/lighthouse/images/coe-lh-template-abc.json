@@ -1,0 +1,83 @@
+{
+ "$schema": "https://schema.management.azure.com/schemas/2019-08-01/subscriptionDeploymentTemplate.json#",
+ "contentVersion": "1.0.0.0",
+ "parameters": {
+  "mspOfferName": {
+   "type": "string",
+   "metadata": {
+    "description": "Specify a unique name for your offer"
+   },
+   "defaultValue": "kyndryl-mcms-na-inst001"
+  },
+  "mspOfferDescription": {
+   "type": "string",
+   "metadata": {
+    "description": "Name of the Managed Service Provider offering"
+   },
+   "defaultValue": "kyndryl-mcms-na-inst001"
+  },
+  "managedByTenantId": {
+   "type": "string",
+   "metadata": {
+    "description": "Specify the tenant id of the Managed Service Provider"
+   },
+   "defaultValue": "5eeb04f7-ec2a-4c7f-a469-75e8ac6af231"
+  },
+  "authorizations": {
+   "type": "array",
+   "metadata": {
+    "description": "Specify an array of objects, containing tuples of Azure Active Directory principalId, a Azure roleDefinitionId, and an optional principalIdDisplayName. The roleDefinition specified is granted to the principalId in the provider's Active Directory and the principalIdDisplayName is visible to customers."
+   },
+   "defaultValue": [
+    {
+     "principalId": "0000000-0000-4890-b01f-111111111",
+     "roleDefinitionId": "acdd72a7-3385-48ef-bd42-f606fba81ae7",
+     "principalIdDisplayName": "abc_lighthouse_readers"
+    },
+    {
+     "principalId": "22222222-33333-440c-22222222222",
+     "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c",
+     "principalIdDisplayName": "abc_lighthouse_contributors"
+    }
+   ]
+  }
+ },
+ "variables": {
+  "mspRegistrationName": "[guid(parameters('mspOfferName'))]",
+  "mspAssignmentName": "[guid(parameters('mspOfferName'))]"
+ },
+ "resources": [
+  {
+   "type": "Microsoft.ManagedServices/registrationDefinitions",
+   "apiVersion": "2020-02-01-preview",
+   "name": "[variables('mspRegistrationName')]",
+   "properties": {
+    "registrationDefinitionName": "[parameters('mspOfferName')]",
+    "description": "[parameters('mspOfferDescription')]",
+    "managedByTenantId": "[parameters('managedByTenantId')]",
+    "authorizations": "[parameters('authorizations')]"
+   }
+  },
+  {
+   "type": "Microsoft.ManagedServices/registrationAssignments",
+   "apiVersion": "2020-02-01-preview",
+   "name": "[variables('mspAssignmentName')]",
+   "dependsOn": [
+    "[resourceId('Microsoft.ManagedServices/registrationDefinitions/', variables('mspRegistrationName'))]"
+   ],
+   "properties": {
+    "registrationDefinitionId": "[resourceId('Microsoft.ManagedServices/registrationDefinitions/', variables('mspRegistrationName'))]"
+   }
+  }
+ ],
+ "outputs": {
+  "mspOfferName": {
+   "type": "string",
+   "value": "[concat('Managed by', ' ', parameters('mspOfferName'))]"
+  },
+  "authorizations": {
+   "type": "array",
+   "value": "[parameters('authorizations')]"
+  }
+ }
+}

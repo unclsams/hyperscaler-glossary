@@ -1,0 +1,49 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2018-05-01/subscriptionDeploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {},
+    "resources": [
+        {
+            "type": "Microsoft.Authorization/policyDefinitions",
+            "apiVersion": "2018-05-01",
+            "name": "validate-vmname",
+            "properties":{
+                "description": "Validate VM names start with kyndryl",
+                "displayName": "Validate VM names start with kyndryl",
+                "policyRule": {
+                    "if": {
+                        "allOf": [
+                            {
+                                "field": "type",
+                                "equals": "Microsoft.Compute/virtualMachines"
+                            },
+                            {
+                                "not": {
+                                    "field": "Microsoft.Compute/virtualMachines/osProfile.computerName",
+                                    "like": "kyndryl*"
+                                }
+                            }
+                        ]
+                    },
+                    "then": {
+                        "effect": "audit"
+                    }
+                }
+            }
+        },
+        {
+            "type": "Microsoft.Authorization/policyAssignments",
+            "apiVersion": "2018-05-01",
+            "name": "validate-vmname-assignment",
+            "dependsOn": [
+                "validate-vmname"
+            ],
+            "properties":{
+                "description": "Validate VM Names",
+                "displayName": "Validate VM Names",
+                "policyDefinitionId": "[concat(subscription().id, '/providers/Microsoft.Authorization/policyDefinitions/', 'validate-vmname')]"
+            }
+        }
+    ],
+    "outputs": {}
+}
