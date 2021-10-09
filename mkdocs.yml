@@ -81,8 +81,8 @@ theme:
   font:
     #text: Roboto
     #code: Roboto Mono
-    text: 'IBM Plex Sans'
-    code: 'IBM Plex Mono' 
+    text: 'IBM Plex Sans Thai'
+    code: 'IBM Plex Sans Condensed' 
 
   favicon: assets/favicon.png
   icon:
@@ -181,17 +181,17 @@ nav:
   - Home: 
     - Introduction: index.md
   - Core Categories:
-    - Architecture Frameworks: categories/archframework.md
-    - Regions & Zones: categories/table.md
-    - Org Mgmt: categories/table.md
-    - Resource Managers: categories/table.md
-    - Compute: categories/table.md
-    - Containers: categories/table.md
-    - Storage: categories/table.md
-    - Network: categories/table.md
-    - IAM: categories/table.md
-    - Migration: categories/table.md
-    - Automation & DevOps: categories/table1.md
+    - Architecture Frameworks: core/archframework.md
+    - Regions & Zones: core/table.md
+    - Org Mgmt: core/table.md
+    - Resource Managers: core/table.md
+    - Compute: core/table.md
+    - Containers: core/table.md
+    - Storage: core/table.md
+    - Network: core/network.md
+    - IAM: core/table.md
+    - Migration: core/table.md
+    - Automation & DevOps: core/table1.md
   - Data,AI,ML & IoT:
     - Databases: dataai/table.md
     - Analytics: dataai/table.md
