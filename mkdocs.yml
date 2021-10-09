@@ -82,7 +82,7 @@ theme:
     #text: Roboto
     #code: Roboto Mono
     text: 'IBM Plex Sans'
-    code: 'IBM Plex Sans Condensed' 
+    code: 'IBM Plex Sans' 
 
   favicon: assets/favicon.png
   icon:
