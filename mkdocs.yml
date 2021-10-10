@@ -86,7 +86,7 @@ theme:
 
   favicon: assets/favicon.png
   icon:
-    logo: logo
+  logo: logo
 
 extra_css:
   - 'extra.css'
