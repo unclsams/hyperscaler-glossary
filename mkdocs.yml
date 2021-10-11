@@ -120,7 +120,7 @@ extra:
     provider: google
     property: !ENV GOOGLE_ANALYTICS_KEY
   social:
-    - icon: font-awesome/brands/github
+    - icon: fontawesome/brands/github
       link: https://github.com/unclsams
     #- icon: fontawesome/brands/gitter
     #  link: https://gitter.im/squidfunk/mkdocs-material
