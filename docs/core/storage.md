@@ -11,18 +11,6 @@
 | Ephemeral Storage| Instance Store Volumes | Ephermeral OS disks | Ephemeral Storage only for GKE | ???|
 
 
-
-   
-## Storage Classes
-
-
-| Storage Types| AWS | Azure | GCP | IBM |
-|----------------------------|-----|-------|-----|-----|
-| Description| ??s | ??? | ??? | ???|
-| Description| ??? | ??? | ??? | ???|
-| Description| ??? | ??? | ??? | ???|
-
-
 ## Archiving Backup
 | Storage Types| AWS | Azure | GCP | IBM |
 |----------------------------|-----|-------|-----|-----|
@@ -35,14 +23,15 @@
 | Type| AWS | Azure | GCP | IBM |
 |----------------------------|-----|-------|-----|-----|
 | Integrate On-premise with Cloud| Storage GW | StorSimple| ??? | ???|
-| Tnsfr Data between OnPrem & Cloud| Data Sync| FileSync | | ???|
+| Sync Data between OnPrem & Cloud| Data Sync| FileSync (Syncs Azure files to windows server, aka Azure File cache on local server | | ???|
 
-## Storage/Data Transfer
+## Bulk Data Transfer
 
 | Transfer Types| AWS | Azure | GCP | IBM |
 |----------------------------|-----|-------|-----|-----|
-| Online Data Transfer| AWS Data | Azure Data Factory, Azcopy, CLI| ??? | ???|
-| Physical Data Transfer| Snowmobile & Snow Ball (Edge Computing Transfer) | Azure Import/Export (SATA HDD/SSD) & Databox | Transfer Appliance | ???|
+| Online Data Transfer|  Data Sync | Azure Data Factory, Azcopy, CLI| ??? | ???|
+| Data transport using secure disks & appliances |  Snowball| Azure Import/Export (SATA HDD/SSD)| ???|
+| Physical Data Transfer| Snowball Edge & Snowmobile |  Databox | Transfer Appliance | ???|
 
 
 ## Other Storage Constructs
@@ -50,5 +39,3 @@
 | Providers| Construct | Description|
 |----------------------------|-----|-------|
 | Azure| Storage Account| Container for all storage types, can have multiple continers, enables to enforce policy across storage types & manage billing, can have more than one storage accounts within a Resource Group |
-| Description| ??s | ??? |
-| Description| ??s | ??? |
