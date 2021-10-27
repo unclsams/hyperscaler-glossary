@@ -20,6 +20,7 @@
 
 
 Notes:
+While multiple Azure subscriptions can be associated with a single instance of Azure AD to centralize identity and authentication, the same is not true for AWS.  Each AWS account has its own instance of AWS IAM with its own security principals and no implicit trust with any other account.
 Each AWS account has its own instance of AWS IAM with its own security principals and no implicit trust with any other account.
 
 https://journeyofthegeek.com/2019/12/01/deep-dive-into-azure-ad-and-aws-sso-integration-part-1/
