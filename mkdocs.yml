@@ -86,8 +86,8 @@ theme:
 
   favicon: assets/favicon.png
   icon:
-  logo: material/unclesams.png
-  favicon: 'unclesams.png'
+  logo: kyndryl2.png
+  favicon: 'kyndryl2.png'
 
 extra_css:
   - 'extra.css'
