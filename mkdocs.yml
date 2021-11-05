@@ -86,8 +86,8 @@ theme:
 
   favicon: assets/favicon.png
   icon:
-  logo: material/unclesams.jpg
-  favicon: 'unclesams.jpg'
+  logo: material/unclesams.png
+  favicon: 'unclesams.png'
 
 extra_css:
   - 'extra.css'
