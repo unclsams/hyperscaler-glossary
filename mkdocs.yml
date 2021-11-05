@@ -186,12 +186,12 @@ nav:
     - Org Mgmt: core/orgmgmt.md
     - Resource Managers: core/table.md
     - Compute: core/table.md
-    - Containers: core/table.md
+    - Containers: core/containers.md
     - Storage: core/storage.md
     - Network: core/network.md
     - IAM: core/table.md
     - Migration: core/table.md
-    - Automation & DevOps: core/table1.md
+    - Automation & DevOps: core/devops.md
   - Data,AI,ML & IoT:
     - Databases: dataai/table.md
     - Analytics: dataai/table.md
