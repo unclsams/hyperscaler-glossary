@@ -202,9 +202,7 @@ nav:
   - Messaging:
     - Messaging: msgng/table.md
   - Management & Governance:
-    - Server & Platform Monitoring: mgmt/table.md
-    - Network Monitoring: mgmt/table.md
-    - App Monitoring: mgmt/table.md
+    - Monitoring: mgmt/monitoring.md
     - Patching & Updates: mgmt/table.md
   - Security & Resiliency:
     - Backup: resiliency/table.md
