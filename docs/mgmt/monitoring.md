@@ -15,9 +15,9 @@
 
 | Component/Service/Construct| AWS | Azure | GCP | IBM |
 |----------------------------|-----|-------|-----|-----|
-| Monitoring Agents| ??? | Metrics - Azure Monitoring Agent, Log-Log Analytics Agent | Old: Stackdriver, Current: OpsAgent - uses Open Telemetry for metrics &  FluentD for logging| ???|
+| Monitoring Agents| ??? | Metrics - Azure Monitoring Agent(AMA), Old: Diag Extnsns, VM Insights, Dependency Agent | Old: Stackdriver, Current: OpsAgent - uses Open Telemetry for metrics | ???|
 | Metrics Monitoring| ??? | ??? | pre-created metrics & custom metrics | ???|
-| Log Monitoring| ??? | ??? | ??? | ???|
+| Log Monitoring| ??? | Log Analytics Agent | FluentD for logging | ???|
 | App Monitoring| ??? | ??? | Recommended customization using Open Telemetry | ???|
 | k8s monitoring| ??? | ??? | Natively integrated with Cloud Monitoring & Logging | ???|
 | Uptime Check| ??? | ??? | Native OOB-VMs,URLs,any service/port  | ???|
