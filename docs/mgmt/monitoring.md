@@ -18,19 +18,21 @@
 | Monitoring Agents| ??? | Metrics - Azure Monitoring Agent(AMA), Old: Diag Extnsns, VM Insights, Dependency Agent | Old: Stackdriver, Current: OpsAgent - uses Open Telemetry for metrics | ???|
 | Metrics Monitoring| ??? | ??? | pre-created metrics & custom metrics | ???|
 | Log Monitoring| ??? | Log Analytics Agent | FluentD for logging | ???|
-| App Monitoring| ??? | ??? | Recommended customization using Open Telemetry | ???|
 | k8s monitoring| ??? | ??? | Natively integrated with Cloud Monitoring & Logging | ???|
-| Uptime Check| ??? | ??? | Native OOB-VMs,URLs,any service/port  | ???|
 | Mobile Monitoring Console/App| ??? | ??? | Cloud Console Mobile App | ???|
 
 
 ## Other Features
    
-
 | Component/Service/Construct| AWS | Azure | GCP | IBM |
 |----------------------------|-----|-------|-----|-----|
 | Uptime Check| ??? | ??? | Native OOB-VMs,URLs,any service/port  | ???|
 | Mobile Monitoring Console/App| ??? | ??? | Cloud Console Mobile App | ???|
-| Clearing Event| ??? | ??? | Notification on Clearing Event & Configurable auto-closure event window | ???|
+| Clearing Event| ??? | yes - with Azure Monitoring Agent | Notification on Clearing Event & Configurable auto-closure event window | ???|
 | Integrations| ??? | ??? | Notification on Clearing Event & Configurable auto-closure event window | ???|
 
+## Application Monitoring
+| Component/Service/Construct| AWS | Azure | GCP | IBM |
+|----------------------------|-----|-------|-----|-----|
+| App Monitoring| ??? | App Insights | Cloud Tracing & Cloud Profiler  | ???|
+| Latency Monitoring| ??? | Native Client Libraries | Native Client Libraries, Libraries from Open Telemetry & Open Census(strategic/Recommended) | ???|
