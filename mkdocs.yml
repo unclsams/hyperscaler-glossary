@@ -186,7 +186,7 @@ nav:
     - Regions & Zones: core/table.md
     - Org Mgmt: core/orgmgmt.md
     - Resource Managers: core/table.md
-    - Compute: core/table.md
+    - Compute: core/compute.md
     - Containers: core/containers.md
     - Storage: core/storage.md
     - Network: core/network.md
