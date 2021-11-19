@@ -1,6 +1,6 @@
 # STS Announcement
 
-STS Parents & Students, Sangamam Tamil School (STS) announces its **RETURN to IN-PERSON CLASSES FROM JAN 8th 2022** !!
+STS Parents & Students, here comes the exciting news our STS family was hoping to hear for a while. We will be **BACK TO SCHOOL FROM JAN 8th 2022** !!
 
 Location: Mercer Middle School, Aldie. 
 Timing: 10:30 am to 12:15pm
