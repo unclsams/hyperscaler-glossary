@@ -5,7 +5,7 @@ Timing: 10:30 am to 12:15pm
 
 STS will follow covid-19 protocols prescribed by Loudoun County which mandates wearing masks at ALL TIMES by Teachers, Students, Volunteers, parents/guardians and anyone accompanying the student.
 
-If at any time during the school year, any student, parent or family member is infected with Covid-19 or comes in close proximity to someone who is infected, LCPS protocol should be followed: (**This below content will be moved to STS website**)  
+If at any time during the school year, any student, parent or family member is infected with Covid-19 or comes in close proximity to someone who is infected, LCPS protocol should be followed: (**This below content, marked in blue, will be moved to STS website**)  
 
 <span style="color:blue">
 
