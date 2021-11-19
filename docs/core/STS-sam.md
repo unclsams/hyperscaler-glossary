@@ -2,7 +2,7 @@
 
 STS Parents & Students, Sangamam Tamil School (STS) announces its **RETURN to IN-PERSON CLASSES FROM JAN 8th 2022** !!
 
-Location: Mercer Middle School, Aldie
+Location: Mercer Middle School, Aldie. 
 Timing: 10:30 am to 12:15pm
 
 STS will follow covid-19 protocols prescribed by Loudoun County which mandates wearing masks at **ALL TIMES** by Teachers, Students, Volunteers, parents/guardians and anyone accompanying the student.
