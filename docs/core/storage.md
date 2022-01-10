@@ -14,23 +14,24 @@
 ## Archiving Backup
 | Storage Types| AWS | Azure | GCP | IBM |
 |----------------------------|-----|-------|-----|-----|
-| Cold Storage| S3-IA | Storage Cool Tier | ??? | ???|
-| Archive| S3 Glacier | Storage Archive Access Tier| ??? | ???|
+| Cold Storage| S3-IA | Storage Cool Tier | Nearline(> once a month) & Coldline (> once a qtr) | ???|
+| Archive| S3 Glacier | Storage Archive Access Tier| Archive | ???|
 | Backup| Backup | Backup | ??? | ???|
 
 ## Hybrid Storage
 
-| Type| AWS | Azure | GCP | IBM |
-|----------------------------|-----|-------|-----|-----|
-| Integrate On-premise with Cloud| Storage GW | StorSimple| ??? | ???|
-| Sync Data between OnPrem & Cloud| Data Sync| FileSync (Syncs Azure files to windows server, aka Azure File cache on local server | | ???|
+| Type| AWS | Azure | GCP |
+|----------------------------|-----|-------|-----|
+| On-Premise Data Storage| Storage GW | StorSimple| Cloudian Hyperstore | 
+| Integrate On-premise with Cloud| Storage GW | StorSimple| Cloudian Hyperstore | 
+| Sync Data between OnPrem & Cloud| Data Sync| FileSync (Syncs Azure files to windows server, aka Azure File cache on local server | Storage Transfer Service | 
 
 ## Bulk Data Transfer
 
 | Transfer Types| AWS | Azure | GCP | IBM |
 |----------------------------|-----|-------|-----|-----|
-| Online Data Transfer|  Data Sync | Azure Data Factory, Azcopy, CLI| ??? | ???|
-| Data transport using secure disks & appliances |  Snowball| Azure Import/Export (SATA HDD/SSD)| ???|
+| Online Data Transfer|  Data Sync | Azure Data Factory, Azcopy, CLI| Storage Transfer Service | ???|
+| Data transport using secure disks & appliances |  Snowball| Azure Import/Export (SATA HDD/SSD)| Transfer Appliance|    |
 | Physical Data Transfer| Snowball Edge & Snowmobile |  Databox | Transfer Appliance | ???|
 
 
@@ -38,4 +39,4 @@
 
 | Providers| Construct | Description|
 |----------------------------|-----|-------|
-| Azure| Storage Account| Container for all storage types, can have multiple continers, enables to enforce policy across storage types & manage billing, can have more than one storage accounts within a Resource Group |
+| Azure| Storage Account| Container for all storage types, can have multiple containers, enables to enforce policy across storage types & manage billing, can have more than one storage accounts within a Resource Group |
