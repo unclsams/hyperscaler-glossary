@@ -191,16 +191,16 @@ nav:
     - Storage: core/storage.md
     - Network: core/network.md
     - IAM: core/table.md
-    - Migration: core/table.md
+    - Migration: core/migrate.md
     - Automation & DevOps: core/devops.md
-  - Data,AI,ML & IoT:
+  - Migration:
+    - Migration: migrate/migrate.md  
+  - Data,AI,ML,Messaging & IoT:
     - Databases: dataai/table.md
     - Analytics: dataai/table.md
     - IoT: dataai/table.md
     - AI & ML: dataai/table.md
-    - Resiliency: dataai/table.md
-  - Messaging:
-    - Messaging: msgng/table.md
+    - Messaging: dataai/table.md
   - Management & Governance:
     - Monitoring: mgmt/monitoring.md
     - Patching & Updates: mgmt/table.md
