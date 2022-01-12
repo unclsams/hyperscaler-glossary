@@ -4,7 +4,7 @@
 ## Virtual Machines
 | Component/Service/Construct| AWS | Azure | GCP |
 |----------------------------|-----|-------|-----|
-| Virtual Machines| EC2 | VM | GCE |
+| Virtual Machines| EC2-Elastic Compute Cloud | VM | GCE-Google Cloud Engine |
 | Scaling| ??? | VM Scale Set & Availability Sets | ??? | ???|
 | Grouping | Placement Groups - 3 types:**1)Cluster**: logical group of instances within same AZ, can span across VPCPeers in same region. Enhanced NW recommended, same type Instance type recommended.  **2)Partiitions** – logical group of partitions, ech partition on separate rack,hw.power,can be same AZ or multi AZ in same region, Each Placement Group has 7 partitions in same AZ, # of instances per Partn Group = account limitation, Partin Group with dedicated instance =2 partitions only (same type/instance recomm). **3)Spread**: Each instance in seprae Rack in AZ, can spread axross multi Azs in same region, 7 instances per AZ , if MORE than 7 instance in AZ,use multiple spread Pl groups
  | Proximity Placement Groups | Instance Groups(Managed & UnManaged)| 
@@ -22,7 +22,7 @@
 ## Container Services
 | Component/Service/Construct| AWS | Azure | GCP |
 |----------------------------|-----|-------|-----|
-| Container Service| ECS-Elastic Container Services| Azure Containers Services(ACS -retired2020) | Cloud Run| 
+| Container Service| ECS-Elastic Container Services(on self-managed EC2) & Fargate (AWS managed compute instances)| Azure Containers Services(ACS -retired2020) | Cloud Run| 
 
 
 ## K8s Services
@@ -37,8 +37,8 @@
 | App Services| Elastic Beanstalk | Azure App Services | App Engine |
 
 
-## Serverless
+## Serverless/FaaS(Function-as-a-Service)
 | Component/Service/Construct| AWS | Azure | GCP | IBM |
 |----------------------------|-----|-------|-----|-----|
-| Serverless| Lambda, Fargate| Azure Functions | Cloud Functions |
+| Serverless| Lambda | Azure Functions | Cloud Functions |
 
