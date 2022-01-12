@@ -191,7 +191,7 @@ nav:
   - Migration:
     - Migration: migrate/migrate.md  
   - Data,AI,ML,Messaging & IoT:
-    - Databases: dataai/table.md
+    - Databases: dataai/data.md
     - Analytics: dataai/table.md
     - IoT: dataai/table.md
     - AI & ML: dataai/table.md
