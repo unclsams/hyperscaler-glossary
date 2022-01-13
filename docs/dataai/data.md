@@ -24,10 +24,8 @@
 
 | Databases  | AWS | Azure | GCP |
 |------------|-----|-------|-----|
-| Description| ??s | ???   | ??? |
-| Description| ??s | ???   | ??? |
-| Description| ??s | ???   | ??? |
-| Description| ??s | ???   | ??? |
+| Description| ??s | Azure IoT Central (platform for creating IoT solutions, connect, manage & configure IoT devices), IoT Hub (msg hub for communication between device & hub), IoT Edge (device),  | ??? |
+
 
 ## AI
 
