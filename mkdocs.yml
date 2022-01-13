@@ -190,7 +190,7 @@ nav:
     - IAM: core/iam.md
   - Migration:
     - Migration: migrate/migrate.md  
-  - Data,AI,ML,Messaging & IoT:dataai/data.md
+  - Data,AI,ML,Messaging & IoT: dataai/data.md
   - Mgmt, Governance & Automation:
     - Monitoring: mgmt/monitoring.md
     - Patching & Updates: mgmt/table.md
