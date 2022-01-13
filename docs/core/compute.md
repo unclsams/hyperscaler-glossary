@@ -34,11 +34,11 @@
 ## App Services
 | Component/Service/Construct| AWS | Azure | GCP |
 |----------------------------|-----|-------|-----|
-| App Services| Elastic Beanstalk | Azure App Services | App Engine |
+| App Services| Elastic Beanstalk | Azure App Services, Azure Webjobs(component of AppService to run tasks/scripts) | App Engine |
 
 
 ## Serverless/FaaS(Function-as-a-Service)
 | Component/Service/Construct| AWS | Azure | GCP | IBM |
 |----------------------------|-----|-------|-----|-----|
-| Serverless| Lambda | Azure Functions | Cloud Functions |
+| Serverless| Lambda | Azure Functions, LogicApps(UI workflow)  | Cloud Functions |
 
