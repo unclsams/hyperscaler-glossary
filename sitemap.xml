@@ -46,27 +46,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://unclsams.github.io/hyperscaler-glossary/dataai/aiml/</loc>
-         <lastmod>2022-01-13</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://unclsams.github.io/hyperscaler-glossary/dataai/analytics/</loc>
-         <lastmod>2022-01-13</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://unclsams.github.io/hyperscaler-glossary/dataai/data/</loc>
-         <lastmod>2022-01-13</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://unclsams.github.io/hyperscaler-glossary/dataai/iot/</loc>
-         <lastmod>2022-01-13</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://unclsams.github.io/hyperscaler-glossary/dataai/messaging/</loc>
          <lastmod>2022-01-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
