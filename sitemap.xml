@@ -2,87 +2,107 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://unclsams.github.io/hyperscaler-glossary/</loc>
-         <lastmod>2022-01-12</lastmod>
+         <lastmod>2022-01-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://unclsams.github.io/hyperscaler-glossary/core/archframework/</loc>
-         <lastmod>2022-01-12</lastmod>
+         <lastmod>2022-01-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://unclsams.github.io/hyperscaler-glossary/core/compute/</loc>
-         <lastmod>2022-01-12</lastmod>
+         <lastmod>2022-01-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://unclsams.github.io/hyperscaler-glossary/core/containers/</loc>
-         <lastmod>2022-01-12</lastmod>
+         <lastmod>2022-01-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://unclsams.github.io/hyperscaler-glossary/core/iam/</loc>
-         <lastmod>2022-01-12</lastmod>
+         <lastmod>2022-01-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://unclsams.github.io/hyperscaler-glossary/core/network/</loc>
-         <lastmod>2022-01-12</lastmod>
+         <lastmod>2022-01-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://unclsams.github.io/hyperscaler-glossary/core/orgmgmt/</loc>
-         <lastmod>2022-01-12</lastmod>
+         <lastmod>2022-01-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://unclsams.github.io/hyperscaler-glossary/core/storage/</loc>
-         <lastmod>2022-01-12</lastmod>
+         <lastmod>2022-01-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://unclsams.github.io/hyperscaler-glossary/core/table/</loc>
-         <lastmod>2022-01-12</lastmod>
+         <lastmod>2022-01-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://unclsams.github.io/hyperscaler-glossary/dataai/aiml/</loc>
+         <lastmod>2022-01-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://unclsams.github.io/hyperscaler-glossary/dataai/analytics/</loc>
+         <lastmod>2022-01-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://unclsams.github.io/hyperscaler-glossary/dataai/data/</loc>
-         <lastmod>2022-01-12</lastmod>
+         <lastmod>2022-01-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://unclsams.github.io/hyperscaler-glossary/dataai/iot/</loc>
+         <lastmod>2022-01-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://unclsams.github.io/hyperscaler-glossary/dataai/messaging/</loc>
+         <lastmod>2022-01-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://unclsams.github.io/hyperscaler-glossary/mgmt/devops/</loc>
-         <lastmod>2022-01-12</lastmod>
+         <lastmod>2022-01-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://unclsams.github.io/hyperscaler-glossary/mgmt/monitoring/</loc>
-         <lastmod>2022-01-12</lastmod>
+         <lastmod>2022-01-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://unclsams.github.io/hyperscaler-glossary/mgmt/table/</loc>
-         <lastmod>2022-01-12</lastmod>
+         <lastmod>2022-01-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://unclsams.github.io/hyperscaler-glossary/migrate/migrate/</loc>
-         <lastmod>2022-01-12</lastmod>
+         <lastmod>2022-01-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://unclsams.github.io/hyperscaler-glossary/migrate/table/</loc>
-         <lastmod>2022-01-12</lastmod>
+         <lastmod>2022-01-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://unclsams.github.io/hyperscaler-glossary/otherservices/table/</loc>
-         <lastmod>2022-01-12</lastmod>
+         <lastmod>2022-01-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://unclsams.github.io/hyperscaler-glossary/resiliency/table/</loc>
-         <lastmod>2022-01-12</lastmod>
+         <lastmod>2022-01-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
