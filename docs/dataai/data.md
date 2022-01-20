@@ -55,6 +55,7 @@
 | Event Routing Service| Amazon Event Bridge |  Azure Event Grid is a fully-managed event routing service running on top of Azure Service Fabric, is an eventing backplane that enables event-driven, reactive programming, uses the publish-subscribe model. Publishers emit events, but have no expectation about how the events are handled. Subscribers decide on which events they want to handle.Event Grid distributes events from different sources, such as Azure Blob storage accounts or Azure Media Services, to different handlers, such as Azure Functions or Webhooks. Event Grid was created to make it easier to build event-based and serverless applications on Azure.| ??? |
 | Data Ingestion Service| Amazon Kineses |  Azure Event Hubs is a big data streaming platform and event ingestion service. It can receive and process millions of events per second. It facilitates the capture, retention, and replay of telemetry and event stream data. The data can come from many concurrent sources. Event Hubs allows telemetry and event data to be made available to various stream-processing infrastructures and analytics services. | ??? |
 
+
 ## Workflows
 
 | Description  | AWS | Azure | GCP |
@@ -70,5 +71,13 @@
 |------------|-----|-------|-----|
 | Description| Data Pipeline & Glue |  DataFactory(move), Azure Purview(manage/govern)  | ??? |
 
+
+## API/API Management
+
+| Provider | Description |
+|------------|-----|
+| Azure| Azure API Management is a hybrid, multicloud management platform for APIs, made up of an **API gateway, a management plane, and a developer portal**. These components are Azure-hosted and fully managed. Available in various tiers differing in capacity and features. Integrates with various other Azure services - Key Vault, EventHub, Functions, Logic Apps, Monitor etc  |
+| AWS| AWS offers a comprehensive platform for API management called Amazon API Gateway. API Gateway makes it easy to define, secure, deploy, share, and operate APIs at any scale. API Gateway handles all the tasks involved in accepting and processing up to hundreds of thousands of concurrent API calls, including traffic management, authorization and access control, monitoring, and API version management. API Gateway also offers a serverless developer portal that enables API publishers to easily connect with API subscribers, as well as easily monitor, manage, and update their APIs. Easily integrates with various AWS services like Lambda, Kinesis, DynamoDB and more | 
+|GCP|. xx |  
 
 
