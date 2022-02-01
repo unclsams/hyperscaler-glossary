@@ -4,7 +4,7 @@ How Organizations can be grouped and organized for Management, Control, Security
 
 ##AWS
 
-Organization --> Root ---> Organization Units --> Accounts
+Organization --> Root --> Organization Units --> Accounts --> Resource Groups --> Resources
 
 <center><img style="height:40%;width:80%" src="../images/aws-org.png" /></center>
 
