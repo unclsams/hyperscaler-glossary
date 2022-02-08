@@ -4,6 +4,7 @@
 | Component/Service/Construct| AWS | Azure | GCP |
 |----------------------------|-----|-------|-----|
 | Native Directory/IAM Service| AWS IAM| Azure Active Directory (AAD) | GCP IAM (uses Google Cloud Identity) |
+| Single Sign-on| AWS SSO| Azure Active Directory (AAD) SSO | GCP IAM SSO (uses Google Cloud Identity) |
 | Microsoft AD compatibility| AWS Directory Services & Simple AD(Samba4 AD)| Azure Active Directory (AAD) | GCDS-Google Cloud Directory Sync |
 | Integration with On-Prem LDAP/Identity provider| AWS Identity Federation | AAD Connect| GCDS-Google Cloud Directory Sync | 
 | Integration Types for On-Prem | Integration with On-Prem AD using AWS AD Connector| Password Hash Sync, Pass Thru Auth, Federation|   |
