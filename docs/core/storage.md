@@ -6,7 +6,7 @@
 | Storage Types| AWS | Azure | GCP | IBM |
 |----------------------------|-----|-------|-----|-----|
 | Object Storage| S3 | Block, Page & Append Blobs | Cloud Storage | IBM Cloud Object Storage|
-| Block Storage| ELB (S3s used to backup ELB) |  Azure Virtual Disks (Page Blobs used as backing storage)| Persistent Disk | IBM Cloud Block Storage|
+| Block Storage| EBS (S3s used to backup EBS) |  Azure Virtual Disks (Page Blobs used as backing storage)| Persistent Disk | IBM Cloud Block Storage|
 | File Storage| EFS | Azure Files | FileStore | ???|
 | Ephemeral Storage| Instance Store Volumes | Ephermeral OS disks | Ephemeral Storage only for GKE | ???|
 
