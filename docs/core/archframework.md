@@ -16,6 +16,7 @@
    
 | Framework| Description |
 |----------------------------|----------------|
+|**Cloud Adoption Framework(CAF)** | AWS's CAF framework is broad and deep comprising six pillars focusing on Business, People, Governance, Platform, Security & Operations. Here is a [AWS CAF Poster](https://docs.aws.amazon.com/whitepapers/latest/overview-aws-cloud-adoption-framework/appendix.html) | 
 |**Well Architected Framework(WAF)** | helps cloud architects build secure, high-performing, resilient, and efficient infrastructure for their applications and workloads | 
 |       | Comprises **five pillars** (similar to Azure): Operational Excellence, Security, Reliability, Performance Efficiency & Cost Optimization | 
  
