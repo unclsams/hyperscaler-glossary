@@ -4,7 +4,7 @@
 
 | Type  | AWS | Azure | GCP |
 |------------|-----|-------|-----|
-| Relational DB| RDS  | **Azure SQL** (PaaS,Fully Managed), Azure **SQL Managed Instance**(Paas with addl functions), Azure DB for **mySQL**, Azure DB for **MariaDB**, Azure DB for **PostgreSQL**   | ??? |
+| Relational DB| RDS - mySQL, postgresSQL, Maria, Aurora, Oracle & SQL  | **Azure SQL** (PaaS,Fully Managed), Azure **SQL Managed Instance**(Paas with addl functions), Azure DB for **mySQL**, Azure DB for **MariaDB**, Azure DB for **PostgreSQL**   | ??? |
 | Serverless Relational DB| Aurora Serverless | Azure SQL DB serverless |  ??  |
 | No SQL DB | Amazon Simple DB & Amazon DynamoDB | Azure CosmosDB (with APIs for Gremlin, Mongo, Table & Cassandra) | ??? |
 | In-Memory DB | Amazon Elastic Cache, Amazon MemoryDB for Redis| Azure Redis Cache   | ??? |
