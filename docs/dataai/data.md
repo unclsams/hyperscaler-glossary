@@ -26,6 +26,11 @@
 | Data Warehouse/Data Lake| Amazon Lake Formation, Amazon RedShift(managed DWH) | Azure Synapse   | ??? |
 |Analytics| **Amazon Athena**-Interactive Analytics/Query, Serverless Service for Data analysis **Amazon EMR** provides managed deployments of popular data analytics platforms, such as Presto, Spark, Hadoop, Hive and HBase. EMR automates the launch of compute and storage nodes powered by Amazon EC2 instances. **Amazon Kinesis** makes it easy to collect, process, and analyze real-time, streaming data so you can get timely insights and react quickly to new information  | **Azure Synapse**-Datawarehouse+Analytics(based on OpenSource Apache Spark, Enterprise Analytics service), Azure Analysis Service (for small volume-few TB). **Azure Databricks**(Data Analytics platform for Data Science/ML & Engineering, Custom propreitory Spark). **Azure HD Insight**-Managed Cluster Service for OpenSource Analytics Service - Spark, Hadoop, Kafka, HBase, Storm, etc..  **ADLA**(Azure DataLake Analytics Service) - on-demand scalable cloud-based analytics and storage service(**ADLS**-Azure DataLake Storage), is an on-demand analytics job service that simplifies big data, Parall. dist platform, U-SQL scripts on Cloud. based on SQL with a twist of C, write queries to transform data &extract insights. ADLS allows storage of any data -unstructured, integ with Hadoop, RBAC, posix like ACL    | ??? |
 
+## Cache
+
+| Description  | AWS | Azure | GCP |
+|------------|-----|-------|-----|
+| Description| **Elastic Cache** REDIS & memcached), **DynamoDB Accelerator(DAX)** fully managed, HA in-memory cache for DynamoDB  | ??  | ??? |
 
 
 ## IOT
