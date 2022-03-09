@@ -3,8 +3,8 @@
 
 | Component/Service/Construct| AWS | Azure | GCP | IBM |
 |----------------------------|-----|-------|-----|-----|
-| Planning/Tracking| None| Azure Boards | None| ???|
-| Release Workflow Service| AWS Code Pipeline, AWS CodeStar-for apps on AWS only| Azure Pipelines | CI/CD| ???|
+| Planning/Tracking| AWS CodeStar| Azure Boards | None| ???|
+| Release Workflow Service/Pipeline as a Service| AWS Code Pipeline, AWS CodeStar-for apps on AWS only| Azure Pipelines | CI/CD| ???|
 | Source Code Repo| AWS Code Commit | Azure Repos | CSR(Cloud Source Registry)| ???|
 | GitHub Integration| 1-way to AWSCodeCommit, also integ. with AWS Codepipelines| 1-way to AzureRepos, also integ. with Azure pipelines | 1-way to CSR| ???|
 | CI/CD Platform/Build| AWS Code Build| Azure Pipelines | Cloud Build| ???|
